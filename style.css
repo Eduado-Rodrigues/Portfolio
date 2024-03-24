@@ -9,7 +9,7 @@
     --cor3: #0cbccc;
     --cor4: #15297c;
     --cor5: #142157;
-    --cor6: #302f2f;
+    --cor6: #4c81acbe;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", cursive;
@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     font-family: var(--fonte-padrao);
 }
 
