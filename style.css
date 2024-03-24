@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Fredericka+the+Great&family=Graduate&family=Kaushan+Script&display=swap');
 
 :root {
-    --cor0: #c5c6eb;
-    --cor1: #38EBD8;
-    --cor2: #38C4EB;
-    --cor3: #388CEB;
-    --cor4: #0A14EB;
-    --cor5: #302f2f;
+    --cor0: #9acef8;
+    --cor1: #2898ee;
+    --cor2: #107acc;
+    --cor3: #0cbccc;
+    --cor4: #15297c;
+    --cor5: #142157;
+    --cor6: #302f2f;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", cursive;
@@ -31,7 +32,7 @@ main p {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
