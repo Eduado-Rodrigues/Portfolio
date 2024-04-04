@@ -23,22 +23,27 @@
 
     .home h1 {
         font-weight: 700;
-        padding: 10px 30px;
+        padding: 10px 5px;
         line-height: 1.1;
         margin: 8px 0 8px;
+        align-items: left;
+        width: auto;
+       
     }
 
     .home h2 {
-        padding: 10px 30px;
+        padding: 10px 5px;
         line-height: 1.1;
         margin: 30px 0 8px;
         text-align: left;
+        width: 380px;
     }
 
     .slide p {
-        padding: 10px 30px;
+        padding: 10px 5px;
         line-height: 1.1;
         margin: 0 0 8px;
+        width: 120px;
         text-align: left;
         padding-bottom: 30px;
     }
