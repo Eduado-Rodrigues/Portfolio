@@ -52,7 +52,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url("fundo-azul.png");
+    background-image: url("../imagens/fundo-azul.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -61,7 +61,7 @@ section{
     z-index: -1;
 }
 
-.home-text h1{
+.home-texto h1{
     font-size: var(--big-font);
     font-family: var(--fonte-padrao);
     font-weight: 700;
@@ -73,7 +73,7 @@ section{
     text-align: center;
 }
 
-.home-text h2 {
+.home-texto h2 {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: white;
@@ -111,5 +111,31 @@ span#burguer {
 
 span#burguer:hover {
     color: var(--cor5);
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: block;
+}
+
+menu ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: var(--cor5);
+    color: var(--cor0);
+    font-weight: bold;
+    transition-duration: .3s;
+    border-top: 2px solid var(--cor6);
+}
+
+menu > ul > li > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor5)
 }
 
