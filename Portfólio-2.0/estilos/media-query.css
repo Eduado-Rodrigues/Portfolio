@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu {
+        width: 768px;
+    }
+
+    .home {
+        background-attachment: fixed;
+    }
+
+    .home h1 {
+        font-weight: 700;
+        padding: 10px 30px;
+        line-height: 1.1;
+        margin: 0 0 8px;
+    }
+
+    .home h2 {
+        padding: 10px 30px;
+        line-height: 1.1;
+        margin: 30px 0 8px;
+        text-align: left;
+    }
+
+    .slide p {
+        padding: 10px 30px;
+        line-height: 1.1;
+        margin: 0 0 8px;
+        text-align: left;
+        padding-bottom: 30px;
+    }
