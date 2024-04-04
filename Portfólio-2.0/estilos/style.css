@@ -45,7 +45,7 @@ header.sticky{
 }
 
 section{
-    padding: 110px 3% 60px;
+    padding: 105px 3% 60px;
 }
 
 .home{
@@ -67,7 +67,8 @@ section{
     font-weight: 700;
     color: white;
     line-height: 1.1;
-    margin: 0 0 8px;
+    margin: 30px 0 8px;
+    padding: 0px;
     background-color: var(--cor4);
     border-radius: 5px;
     text-align: center;
@@ -78,7 +79,7 @@ section{
     font-size: 1.2em;
     color: white;
     max-width: 600px;
-    padding: 10px 30px;
+    padding: 10px 6px;
     width: 405px;
     background-color: var(--cor4);
     border-radius: 5px;
@@ -92,7 +93,7 @@ section{
     width: 180px;
     height: 32px;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 6px;
     line-height: 32px;
     font-size: 20px;
     border-radius: 5px;
