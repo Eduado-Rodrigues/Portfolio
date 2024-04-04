@@ -258,3 +258,112 @@ menu > ul > li > a:hover {
     font-size: var(--h2-font);
     line-height: 1;
 }
+
+.redes {
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin-top: 5em;
+    background-color: rgb(34, 34, 33);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0.281);
+}
+
+.redes > h2 {
+    font-size: 30px;
+    background-color: var(--cor4);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.corpo {
+    box-sizing: border-box;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+}
+
+.embrulho  {
+    display: inline-flex;
+    list-style: none;
+}
+
+.embrulho .icone {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 70px 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.embrulho .ferramenta {
+    position: absolute;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 8px 8px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.embrulho .ferramenta::before {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.embrulho .icone:hover .ferramenta {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.embrulho .icone a {
+    color: black;
+}
+
+.linkedin {
+    --color: #1877f2;
+}
+
+.instagram {
+    --color: #e4405f;
+}
+
+.github {
+    --color: #333333;
+}
+
+.icone:hover,
+.icone:hover .ferramenta,
+.icone:hover .ferramenta::before {
+    background: var(--color);
+    color: white;
+}
