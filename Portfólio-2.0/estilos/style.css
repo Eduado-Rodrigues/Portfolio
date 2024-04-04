@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #9acef8;
+    --cor1: #2898ee;
+    --cor2: #107acc;
+    --cor3: #0cbccc;
+    --cor4: #15297c;
+    --cor5: #142157;
+    --cor6: #4c81acbe;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+    display: block;
+    align-items: center;
+    background: transparent;
+    padding: 22px 15%;
+}
+
+body {
+    background-color: var(--cor6);
+    font-family: var(--fonte-padrao);
+}
+
+header.sticky{
+    background: var(--bg-color);
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+    height: 10vh;
+}
+
+section{
+    padding: 110px 3% 60px;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("fundo-azul.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: -1;
+}
+
+.home-text h1{
+    font-size: var(--big-font);
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+    color: white;
+    line-height: 1.1;
+    margin: 0 0 8px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.home-text h2 {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding: 10px 30px;
+    width: 405px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.slide p {
+    display: block;
+    width: 180px;
+    height: 32px;
+    margin: auto;
+    padding: 0 10px;
+    line-height: 32px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color: var(--cor4);
+}
+
+span#burguer {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    color: var(--cor5);
+}
+
