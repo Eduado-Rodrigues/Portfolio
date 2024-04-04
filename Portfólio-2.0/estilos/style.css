@@ -55,6 +55,7 @@ section{
     background-image: url("../imagens/fundo-azul.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: flex-start;
