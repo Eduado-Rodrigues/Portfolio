@@ -16,6 +16,6 @@ Este repositório contém as diferentes versões do meu portfólio online, mostr
 
 - **Tecnologias Utilizadas:** HTML5, CSS3, JavaScript
 - **Descrição:** A segunda versão do meu portfólio apresenta um design mais elaborado e interativo, com seções detalhadas sobre minha experiência, habilidades e projetos.
-- **Link:** [Portfolio 2.0](https://eduado-rodrigues.github.io/portfolio/portfolio-2.0/)
+- **Link:** [Portfolio 2.0](https://eduado-rodrigues.github.io/portfolio/portfolio-2.0/){:target="_blank"}
 
 Sinta-se à vontade para explorar as diferentes versões do meu portfólio e acompanhar a minha evolução na área de desenvolvimento web!
