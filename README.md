@@ -7,7 +7,7 @@ Este repositório contém as diferentes versões do meu portfólio online, mostr
 ![Portfolio 1.0](portfolio-1.0/imagens/portfolio-1.0.jpg)
 
 - **Tecnologias Utilizadas:** HTML5, CSS3, JavaScript
-- **Descrição:** A primeira versão do meu portfólio apresenta uma página simples com informações básicas sobre mim e links para projetos pessoais.
+- **Descrição:** A primeira versão do meu portfólio apresenta uma página simples com informações básicas sobre mim.
 - **Link:** [Portfolio 1.0](https://eduado-rodrigues.github.io/portfolio/portfolio-1.0/)
 
 ## Portfolio 2.0
